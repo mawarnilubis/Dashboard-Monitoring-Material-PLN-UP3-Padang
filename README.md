@@ -13,30 +13,10 @@ Data ditarik otomatis (real-time) dari Google Sheets, dengan cache 10 menit agar
 ├── requirements.txt     # Daftar dependency Python
 └── README.md            # Dokumentasi project
 
-⚙️ Cara Menjalankan Secara Lokal
-Clone repo ini:
-bash
-   git clone <url-repo-kamu>
-   cd <nama-folder-repo>
-(Opsional) Buat virtual environment:
-bash
-   python -m venv venv
-   venv\Scripts\activate      # Windows
-   source venv/bin/activate   # macOS/Linux
-Install dependency:
-bash
-   pip install -r requirements.txt
-   
-Jalankan dashboard:
-bash
-
-   streamlit run dashboard.py
-Buka browser ke http://localhost:8501.
-
-URL publik yang dihasilkan: https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/
+URL publik: https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/
 
 📊 Sumber Data
-Data diambil langsung dari Google Sheets (format CSV export), dengan tiga sheet terpisah berdasarkan GID:
+Data Extraction langsung dari Google Sheets (format CSV export), dengan tiga sheet terpisah berdasarkan GID:
 
 Material Masuk (SP2B)
 Material Return
