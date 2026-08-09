@@ -1,4 +1,4 @@
-# ⚡ Dashboard Monitoring Material Gudang - PLN UP3 Padang
+# Dashboard Monitoring Material Gudang - PLN UP3 Padang
 
 <p align="center">
   <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo%20PLN%20%28cropped%29.svg" width="55">
@@ -17,7 +17,7 @@ Aplikasi ini dibangun menggunakan **Streamlit** dan **Plotly** serta terhubung d
 
 ---
 
-## 👤 Identitas Mahasiswa
+## Identitas Mahasiswa
 
 - **Nama**            : Mawarni Lubis
 - **NIM**             : 23343009
@@ -27,7 +27,7 @@ Aplikasi ini dibangun menggunakan **Streamlit** dan **Plotly** serta terhubung d
 
 ---
 
-## 🎯 Deskripsi Project
+## Deskripsi Project
 
 Project ini merupakan aplikasi dashboard berbasis web yang digunakan untuk melakukan **monitoring dan visualisasi data material gudang PLN UP3 Padang**.
 
@@ -45,7 +45,7 @@ URL publik: [https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/
 
 ---
 
-## 🖥️ Fitur Dashboard
+## Fitur Dashboard
 
 ### 📥 1. Material Masuk (SP2B)
 
