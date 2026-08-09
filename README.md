@@ -1,40 +1,79 @@
 # ⚡ Dashboard Monitoring Material Gudang - PLN UP3 Padang
 
-Dashboard monitoring real-time untuk arus material gudang PLN UP3, dibangun dengan Streamlit dan Plotly. Menampilkan tiga modul dalam satu halaman: Material Masuk (SP2B), Material Return, dan Material Keluar.
+---
 
-## 🖥️ Fitur
+Dashboard monitoring material gudang **PT PLN (Persero) UP3 Padang** yang dikembangkan untuk membantu proses pemantauan dan analisis arus material secara terintegrasi.
 
-Material Masuk (SP2B) — frekuensi pasokan, total volume masuk, dan Top 10 vendor/pengantar material paling dominan.
+Aplikasi ini dibangun menggunakan **Streamlit** dan **Plotly** serta terhubung dengan **Google Sheets** sebagai sumber data. Dashboard menyajikan informasi dalam tiga modul utama, yaitu **Material Masuk (SP2B), Material Return, dan Material Keluar**.
 
-Material Return — frekuensi pengembalian, total volume return, dan Top 10 material yang paling sering di-return.
+---
 
-Material Keluar — frekuensi pengeluaran, total volume keluar, dan Top 10 material yang paling sering dikeluarkan.
+## 👤 Identitas Mahasiswa
 
-Data ditarik otomatis (real-time) dari Google Sheets, dengan cache 10 menit agar tidak membebani request.
+- **Nama**            : Mawarni Lubis
+- **NIM**             : 23343009
+- **Program Studi**   : Informatika
+- **Fakultas**        : Teknik
+- **Universitas**     : Universitas Negeri Padang
 
-## 📁 Struktur Project
+---
 
-.
-├── dashboard.py         # Aplikasi utama Streamlit
-├── requirements.txt     # Daftar dependency Python
-└── README.md            # Dokumentasi project
+## 🎯 Deskripsi Project
 
-URL publik: [https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/](https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/)
+Project ini merupakan aplikasi dashboard berbasis web yang digunakan untuk melakukan **monitoring dan visualisasi data material gudang PLN UP3 Padang**.
 
-## 📊 Sumber Data
+Dashboard mengintegrasikan data dari beberapa proses transaksi material sehingga pengguna dapat melihat kondisi material secara lebih cepat dan informatif melalui visualisasi interaktif.
 
-Data Extraction langsung dari Google Sheets (format CSV export), dengan tiga sheet terpisah berdasarkan GID:
+Terdapat tiga modul utama yang tersedia:
 
-Material Masuk (SP2B)
+1. **Material Masuk (SP2B)**
+2. **Material Return**
+3. **Material Keluar**
 
-Material Return
+Data Extraction langsung dari link Google Sheets secara otomatis, sehingga dashboard dapat memperbarui informasi tanpa perlu melakukan input data secara manual ke dalam aplikasi.
 
-Material Keluar
+---
 
-## 🛠️ Tech Stack
+## 🖥️ Fitur Dashboard
 
-Streamlit — framework web app
+### 📥 1. Material Masuk (SP2B)
 
-Plotly — visualisasi chart interaktif
+Modul ini digunakan untuk memantau arus material yang masuk ke gudang.
 
-Pandas & NumPy — pengolahan data
+Informasi yang ditampilkan meliputi:
+
+- Frekuensi transaksi material masuk
+- Total volume material masuk
+- Top 10 vendor/pengantar material paling dominan
+- Visualisasi data material masuk
+- Monitoring berdasarkan data terbaru
+
+---
+
+### 🔄 2. Material Return
+
+Modul ini digunakan untuk memantau material yang dikembalikan ke gudang.
+
+Informasi yang ditampilkan meliputi:
+
+- Frekuensi pengembalian material
+- Total volume material return
+- Top 10 material yang paling sering di-return
+- Visualisasi distribusi material return
+- Monitoring transaksi return
+
+---
+
+### 📤 3. Material Keluar
+
+Modul ini digunakan untuk memantau material yang keluar dari gudang.
+
+Informasi yang ditampilkan meliputi:
+
+- Frekuensi pengeluaran material
+- Total volume material keluar
+- Top 10 material yang paling sering dikeluarkan
+- Visualisasi transaksi material keluar
+- Monitoring arus material berdasarkan transaksi
+
+---
