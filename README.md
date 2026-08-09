@@ -32,6 +32,8 @@ Terdapat tiga modul utama yang tersedia:
 
 Data Extraction langsung dari link Google Sheets secara otomatis, sehingga dashboard dapat memperbarui informasi tanpa perlu melakukan input data secara manual ke dalam aplikasi.
 
+URL publik: [https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/](https://dashboard-monitoring-material-pln-up3-padang.streamlit.app/)
+
 ---
 
 ## 🖥️ Fitur Dashboard
