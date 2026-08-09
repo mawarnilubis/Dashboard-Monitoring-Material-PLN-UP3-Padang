@@ -1,5 +1,16 @@
 # ⚡ Dashboard Monitoring Material Gudang - PLN UP3 Padang
 
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_PLN.svg" width="80">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/23343009-Mawarni%20Lubis-555555?style=flat-square&logo=github">
+  <img src="https://img.shields.io/badge/PLN-UP3%20Padang-00A651?style=flat-square">
+  <img src="https://img.shields.io/badge/Network%20Programming-Praktikum-0072BC?style=flat-square">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit">
+</p>
+
 ---
 
 Dashboard monitoring material gudang **PT PLN (Persero) UP3 Padang** yang dikembangkan untuk membantu proses pemantauan dan analisis arus material secara terintegrasi.
