@@ -1,12 +1,12 @@
 # ⚡ Dashboard Monitoring Material Gudang - PLN UP3 Padang
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Logo_PLN.svg" width="80">
+  <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo%20PLN%20%28cropped%29.svg" width="55">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/23343009-Mawarni%20Lubis-555555?style=flat-square&logo=github">
-  <img src="https://img.shields.io/badge/PLN-UP3%20Padang-00A651?style=flat-square">
+  <img src="https://img.shields.io/badge/23343009-Mawarni%20Lubis-555555?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/PLN-UP3%20Padang-4CAF50?style=for-the-badge">
 </p>
 
 ---
